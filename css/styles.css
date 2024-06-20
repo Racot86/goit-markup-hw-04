@@ -367,16 +367,17 @@ border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .btn-round:hover{
     background-color: var(--ocean);
 }
+
 .btn-round:focus{
     background-color: var(--ocean);
 }
 .fill{
-    fill: var(--white);
+    fill: var(--cloud);
 }
 .icon-size{
     height: 40px;
