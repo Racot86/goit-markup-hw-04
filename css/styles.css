@@ -356,8 +356,15 @@ address{
     gap: 24px;
     margin-top: 8px;
 }
+.icon-size{
+    height: 40px;
+    width: 40px;
+}
+.fill{
+    fill: var(--cloud);
+}
 .btn-round{
-border-radius: 50%;
+    border-radius: 50%;
     width: 100%;
     height: 100%;
     background-color: var(--iris);
@@ -366,8 +373,9 @@ border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    cursor: pointer;
 
+}
 .btn-round:hover{
     background-color: var(--ocean);
 }
@@ -375,13 +383,7 @@ border-radius: 50%;
 .btn-round:focus{
     background-color: var(--ocean);
 }
-.fill{
-    fill: var(--cloud);
-}
-.icon-size{
-    height: 40px;
-    width: 40px;
-}
+
 .currently{
     position: relative;
     color: var(--ocean);
