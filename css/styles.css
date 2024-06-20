@@ -287,6 +287,10 @@ address{
 }
 .transition{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.btn-transition{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-card-text{
     padding: 32px 16px;
@@ -317,9 +321,10 @@ address{
 
 .back-img{
     background-repeat: no-repeat;
-    background-image: linear-gradient(#2E2F42B2, #2E2F42B2, #2E2F42B2), url("/images/background1.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background1.jpg);
     background-position: center;
-    object-fit: fill;
+    max-width: 1440px;
+    background-size: cover;
 
 }
 .icon-card{
