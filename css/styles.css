@@ -374,7 +374,7 @@ border-radius: 50%;
 }
 
 .btn-round:focus{
-    background-color: #404bbf;
+    background-color: var(--ocean);
 }
 .fill{
     fill: var(--cloud);
