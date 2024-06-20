@@ -332,10 +332,9 @@ address{
     border: 1px solid var(--light-slate);
     justify-content: center;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-radius: 2%;
+    border-radius: 4px;
     margin-bottom: 8px;
+    height: 112px;
 }
 .icon-card svg{
     display: flex;
